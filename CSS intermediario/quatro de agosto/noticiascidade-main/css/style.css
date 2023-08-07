@@ -7,11 +7,12 @@ body{
 .corpo{
     max-width: 800px;
     margin: 0 auto;
+    padding: 0;
 }
 /*lateral esquerda*/
 .lateral{
     float: left;
-    width: 290px;
+    width: 250px;
 }
 #entrevistas, #news{
     background-image: url(../imagens/fundo-caixa.png);
@@ -81,29 +82,83 @@ body{
 /*Conteudo a direita*/
 .caixas{
     float: right;
-    width: 490px;
-}
-.linha{
+    width: 550px;
+    padding: 0;
     display: inline;
-    float: left;
 }
-.artigoimg{
+.artigo1{
     background-image: url(../imagens/fundo-caixa.png);
-    padding: 10px;
-    width: 49%;
+    padding: 8px;
     float: left;
+    width: 255px;
+    margin: 2px;
 }
-.artigoimg img{
+.artigo1 img{
     width: 100%;
 }
-.artigo{
+.artigo2{
     background-image: url(../imagens/fundo-caixa.png);
-    padding: 10px;
-    width: 49%;
+    padding: 8px;
     float: left;
+    width: 255px;
+    margin: 2px;
 }
 .artigo2 img{
-    width: 220px%;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+#paginicial h2{
+    background-color: #294C71;
+    color: white;
+}
+#paginicial h3{
+    background-color: #CC043D;
+    padding-left: 10px;
+    color: white;
+    font-size: 97%;
+}
+#white{
+    background-color: white;
+    padding: 10px;
+}
+
+#artigolink{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 8px;
+    float: left;
+    width: 255px;
+    margin: 2px;
+}
+#artigolink img{
+    width: 35%;
+    float: left;
+    height: 60px;
+    margin-top: 2px;
+}
+.mininot{
+    background-color: rgb(226, 226, 226);
+    border-bottom: #294C71;
+}
+.mininot h3{
+    font-size: 100%;
+    margin: none;
+    background-color: #CC043D;
+    color: white;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.mininot p{
+    font-size: 80%;
+}
+#artigolink h2{
+    background-color: #294C71;
+    color: white;
+}
+a{
+    text-decoration: none;
 }
 /*Rodape*/
 .rodape{

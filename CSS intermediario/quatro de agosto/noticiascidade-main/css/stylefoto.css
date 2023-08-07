@@ -1,0 +1,95 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+/*Conteudos do site*/
+.corpo{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.artigo1{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 8px;
+    width: 100%;
+    margin: 2px;
+}
+.artigo1 img{
+    width: 100%;
+}
+#white{
+    padding: 10px;
+    background-color: white;
+}
+.clear{
+    clear: both;
+}
+#paginicial h2{
+    background-color: #294C71;
+    color: white;
+}
+#paginicial h3{
+    background-color: #CC043D;
+    padding-left: 10px;
+    color: white;
+    font-size: 97%;
+}
+#white{
+    background-color: white;
+    padding: 10px;
+}
+
+#artigolink{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 8px;
+    float: left;
+    width: 100%;
+    margin: 2px;
+}
+#artigolink img{
+    width: 70px;
+    float: left;
+    height: 60px;
+    margin-top: 2px;
+}
+.mininot{
+    background-color: rgb(226, 226, 226);
+    border-bottom: #294C71;
+    width: 100%;
+}
+.mininot h3{
+    font-size: 100%;
+    margin: none;
+    background-color: #CC043D;
+    color: white;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+.mininot p{
+    font-size: 80;
+    color: rgb(226, 226, 226);
+}
+#artigolink h2{
+    background-color: #294C71;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+/*Rodape*/
+.rodape{
+    background-color: #294C71;
+    height: 100px;
+    line-height: 100px;
+    clear: both;
+}
+.rodape h6{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
