@@ -1,0 +1,34 @@
+/*Layout fixo - 
+é interessante mas apresenta
+problemas na redução do tamanho de
+telas, o site não se adapta bem.*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+#principal{
+    background-color: #afaf;
+    width: 730px;
+    margin: 0 auto;
+}
+#logo{
+    background-color: #9e9e9e;
+    text-align: center;
+    height: 100px;
+}
+#conteudo{
+    width: 420px;
+    float: right;
+    margin: 20px;
+}
+#menu{
+    width: 180px;
+    float: left;
+    padding: 20px;
+    background: #d1d1d1;
+}
+#rodape{
+    clear: both;
+    background-color: #c4c4c4;
+    padding: 5px;
+}

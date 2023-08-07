@@ -1,0 +1,119 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+/*Conteudos do site*/
+.corpo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*lateral esquerda*/
+.lateral{
+    float: left;
+    width: 290px;
+}
+#entrevistas, #news{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+#entrevistas h2, #news h2{
+    background-color: #294C71;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+#entrevistas ul{
+    list-style: none;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+#entrevistas li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#entrevistas a{
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+    color: black;
+}
+#entrevistas a:hover{
+    background-color: rgb(223, 223, 223);
+}
+/*News*/
+#news form{
+    background-color: white;
+    padding: 10px;
+}
+#news label{
+    font-size: large;
+}
+#news input{
+    display: block;
+    margin-top: 5px;
+}
+#news input[type="email"]{
+    width: 80%;
+    padding: 8px;
+}
+#news input[type="email"]::placeholder{
+    color: rgb(61, 88, 170);
+    font-size: 110%;
+}
+#news input[type="submit"]{
+    padding: 13px;
+    background-color: #B30435;
+    color: white;
+    font-size: larger;
+    border: 1px solid #730222;
+}
+#news input[type="submit"]:hover{
+    background-color: #E60544;
+    transition: 0.3s;
+    border: 1px solid #CC043D;
+}
+/*Conteudo a direita*/
+.caixas{
+    float: right;
+    width: 490px;
+}
+.linha{
+    display: inline;
+    float: left;
+}
+.artigoimg{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 10px;
+    width: 49%;
+    float: left;
+}
+.artigoimg img{
+    width: 100%;
+}
+.artigo{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding: 10px;
+    width: 49%;
+    float: left;
+}
+.artigo2 img{
+    width: 220px%;
+}
+/*Rodape*/
+.rodape{
+    background-color: #294C71;
+    height: 100px;
+    line-height: 100px;
+    clear: both;
+}
+.rodape h6{
+    color: white;
+    font-size: large;
+    text-align: center;
+}

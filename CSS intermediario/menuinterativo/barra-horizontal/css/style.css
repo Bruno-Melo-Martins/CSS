@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 720px;
+    float: left;
+    background-image: url(../../barras-main/imagens/fundo-horizontal.png);
+    background-repeat: repeat-x;
+}
+.menu li{
+    float: left;
+    width: 144px;
+    text-align: center; 
+    background-image: url(../../barras-main/imagens/divisor.png);
+    background-repeat: repeat-y;
+}
+.menu a{
+    text-decoration: none;
+    color: azure;
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+}
+.menu a:hover{
+    background-image: linear-gradient(rgb(23,140,212),rgb(22,86,201));
+}
+.menu .primeiro li{
+    background: none;
+}
+.menu .atual{
+    background-image: linear-gradient(cornflowerblue , rgb(63, 63, 199));
+}
+.clear{
+    clear: both;
+}

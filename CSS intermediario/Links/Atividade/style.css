@@ -1,0 +1,114 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Cabeçalho*/
+.cabecalho{
+    background-color: rgba(1, 41, 55, 1);
+    height: 150px;
+    margin: -8px;
+}
+#logo{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imglogo{
+    height: 100px;
+    border-radius: 100%;
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+    top: 10px;
+}
+.op{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 255, 255);
+}
+.op:hover{
+    background-color: rgba(2, 24, 39, 1);
+}
+/*Corpo da página*/
+#corpo{
+    background-color:rgba(213, 215, 217, 1);
+    height: 100%;
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+/*Postaggens*/
+.postagem{
+    width: min-content;
+    height: fit-content;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: larger;
+}
+h2{
+    color: rgba(0, 219, 221, 1);
+}
+
+h3{
+    color: rgb(219, 186, 0);
+    font-size: 100%;
+}
+#leiamais{
+    color: rgb(241, 205, 0);
+    text-decoration: none;
+}
+#leiamais:hover{
+    color: rgba(0, 219, 221, 1);
+}
+/*Chat*/
+.chat{
+    height: fit-content;
+    background-color: white;
+    padding: 15px;
+    width: 210px;
+}
+#enviar{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgba(1, 41, 55, 1);
+    background-color: rgba(180, 183, 188, 1);
+}
+#comment, #digite{
+    resize: none;
+    border: 1px solid rgba(1, 41, 55, 1);
+    background-color: rgba(243, 244, 244, 1);
+    width: 100%;
+}
+
+/*propaganda*/
+.propaganda{
+    width: 210px; 
+    background-color: white;
+    padding: 15px;
+}
+#imgtb{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Direitos de Copoyright*/
+.direitos{
+    text-align: center;
+    padding: 15px;
+}
+#dir{
+    padding: 20px;
+    background-color: rgba(128, 134, 142, 0.589);
+    font-size: 18px;
+}
+
+/*Alinhamento*/
+.alinhamento{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

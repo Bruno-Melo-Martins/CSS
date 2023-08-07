@@ -1,0 +1,44 @@
+.cabecalho{
+    background-image: url(../imagens/fundo.png);
+    height: 233px;
+}
+#limite{
+    max-width: 800px;
+    height: 233px;
+    margin: 0 auto;
+    background-image: url(../imagens/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#logo img{
+    margin-top: 30px;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-top: 35px;
+    background-color: #B40536;
+}
+#menu li{
+    display: inline;
+    margin: 0px;
+    float: left;
+    background-image: url(../imagens/divisor.png);
+    background-repeat: repeat-y;
+    padding: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#menu a:hover{
+    color: black;
+}
+#atual{
+    background-color: #DE003E;
+}
+.clear{
+    clear: both;
+}

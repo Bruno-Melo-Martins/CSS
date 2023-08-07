@@ -1,0 +1,27 @@
+/*Formatação de barras verticais*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    width: 200px;
+    background-image: url(../imagens/seta.png)
+    no-repeat left center;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    background-image: url(../imagens/menu.png);
+    font-size: 20px;
+    text-indent: 35px;
+    line-height: 40px;
+    display: block;
+    color: maroon;
+}
+ul a:hover{
+    background-position: right bottom;
+}
+.home #atual a{
+    background-position: right bottom;
+}
