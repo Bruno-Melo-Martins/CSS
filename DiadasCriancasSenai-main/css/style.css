@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eee;
+}
+.cabecalho{
+    background-color: royalblue;
+    margin: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.cabecalho h1{
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 350%;
+}

@@ -1,0 +1,36 @@
+#back{
+    background-image: url(Imagens/homem.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+}
+.op1{
+    padding: 30px;
+    font-size: 100px;
+    position: relative;
+    left: 90px;
+    color: transparent;
+}
+.op2{
+    padding: 20px;
+    font-size: 100px;
+    position: absolute;
+    color: transparent;
+}
+.op3{
+    padding: 20px;
+    font-size: 100px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    color: transparent;
+}
+.op4{
+    padding: 20px;
+    font-size: 100px;
+    position: absolute;
+    top: 240px;
+    left: 210px;
+    color: transparent;
+}
