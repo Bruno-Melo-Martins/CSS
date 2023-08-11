@@ -1,0 +1,10 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(fuchsia, blueviolet, cornflowerblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+fieldset{
+    color: white;
+}
