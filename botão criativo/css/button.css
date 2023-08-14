@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao a{
+    padding: 15px 55px 15px 55px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    background-image: url(../img/botao.jpg);
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+}
+.botao a:hover{
+    background-position: bottom;
+    color: black;
+    transition: 0.7s;
+}
